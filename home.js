@@ -1,0 +1,1 @@
+console.log(alert("Bienvenue chez easy"));
