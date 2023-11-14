@@ -45,21 +45,10 @@
     width: 35px;
     height: 35px;
   }
-  .div1{
-    font-size: 30px;
-    /* font-family: 'Shadows Into Light', cursive; */
-    letter-spacing: 1px;
-    border: 3px dashed rgb(205, 199, 199);
-    border-radius: 10px;
-    margin: 250px;
-    padding: 300px;
-    margin-right: 300px;
-    margin-left: 400px;
-    display: flex;
-  }
+
   
   .bienvenue{
-    background-color: #2B005506;
+    background-color: #FFD5008F;
     border: 3px dashed black;
     border-radius: 10px;
   margin-top: 20px;
@@ -176,98 +165,64 @@
     margin-top: -20px;
     margin-left: 400px;
   }
-  .loulou{
+  .div1{
     font-size: 30px;
+    letter-spacing: 1px;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 250px;
+    padding: 300px;
+    margin-right: 300px;
+    margin-left: 400px;
+    display: flex;
+    background-color: #dc080fd3;
+    height: 400px;
+  }
+  .enter{
+    color: white;
+     font-family: 'Shadows Into Light', cursive;
+  }
+  .mailarea{
+    margin-left: -600px;
+    font-size: 20px;
+    margin-top: -500px;
+  }
+  #mail{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+  }
+  .numarea{
+    margin-left: -500px;
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  .erere{
     font-family: 'Shadows Into Light', cursive;
-    margin-left: 300px;
-    margin-top: 20px;
+    font-size: 30px;
+    margin-top: 100px;
   }
-  .title {
-    text-align: center;
-    margin: 0 auto 80px;
-    position: relative;
-    line-height: 60px;
-    color: #555;
+  #nino{
+    margin-top: -40px;
+    margin-left: -100px;
   }
-  
-  .title::after {
-    content: "";
-    background: blue;
-    width: 90px;
-    height: 5px;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-left: 50px;
+  .papa{
+    margin-left: -100px;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
   }
-.connexion{
-  padding: 30px;
-  width: 400px;
-  height: 130px;
-  border-radius: 35px;
-  background-color: white;
-  font-size: 30px;
-  font-family: 'Shadows Into Light', cursive;
-  margin-left: 70px;
-  margin-top: 20px;
-  display: flex;
-}
-.connexion:hover{
-  background-color: red;
-  color: white;
-}
-.totle{
-  text-align: center;
-    margin: 0 auto 80px;
-    position: relative;
-    line-height: 60px;
-    color: #555;
-}
-.totle::after{
-  content: "";
-  background: blue;
-  width: 90px;
-  height: 5px;
-  border-radius: 5px;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-left: 50px;
-}
-.google{
-  height: 70px;
-  width: 70px;
-}
-.apple{
-  height: 70px;
-  width: 150px;
-}
-#solo{
-  margin-bottom: 50px;
-}
-.maillotsenegal{
-  height: 400px;
-  width: 350px;
-  margin-left: 100px;
-  margin-right: -200px;
-  border-radius: 10px;
-}
-.rere{
-  color: white;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 50px;
-}
-.roro{
-  color: red;
-  font-size: 80px;
-  font-family:'Shadows Into Light', cursive;
-}
-.aillot{
-  height: 50px;
-  width: 250px;
-  /* margin-left: 200px; */
-
-}
+  #style{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+  }
+  .forfor{
+    margin-top: -250px;
+    margin-left: 400px;
+  }
+  .input{
+    font-size: 20px;
+  }
+  .formulaire{
+    color: white;
+    font-family: 'Satisfy', cursive;
+  }

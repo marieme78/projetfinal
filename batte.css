@@ -77,6 +77,7 @@
     margin: 30px 0;
     border-radius: 5px;
     transition:  0.5s;
+    margin-top: -10px;
   }
   
   .btn:hover {
@@ -94,15 +95,8 @@
     position: fixed;
   }
   .header {
-    /* background-image: url(https://static.vecteezy.com/ti/vecteur-libre/p1/6029969-bleu-ciel-skyscape-fond-concept-vectoriel.jpg); */
-    /* background-image: url(https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg); */
-    /* background-image: url(https://www.aeroportlimoges.com/fileadmin/user_upload/voyages-2.jpg); */
-    /* background: content-box radial-gradient( skyblue,white); */
-    /* background: content-box radial-gradient(); */
-    /* background-color: #FFB300C2; */
     background-color: #FFD5008F;
-    /* background-color: color(display-p3 0.977 0.868 0.291); */
-    height: 750px;
+    height: 100px;
     color: white;
     font-family: 'Cedarville Cursive', cursive;
     font-family: 'Edu TAS Beginner', cursive;
@@ -157,6 +151,7 @@
     position: relative;
     line-height: 60px;
     color: #555;
+    margin-top: 50px;
   }
   
   .title::after {
@@ -175,73 +170,18 @@
     color: #555;
     font-weight: normal;
   }
-  
+  .col-4{
+    height: 400px;
+    width: 1050px;
+  }
   .col-4 p {
     font-size: 14px;
-  }
-  
-  .rating .fa {
-    color: red;
   }
   
   .col-4:hover {
     transform: translateY(-5px);
   }
-  /*     offre     */
-  .offre {
-    background-color: #F8CF0088;
-    margin-top: 80px;
-    padding: 30px 0;
-    height: 500px;
-  }
-  
-  .col-2 .offre-img {
-    padding: 50px;
-  }
-  
-  small {
-    color: #555;
-  }
-  /* testimonial */
-  .testimonial {
-    padding-top: 100px;
-  }
-  .testimonial .col-3 {
-    text-align: center;
-    padding: 40px 20px;
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.5s;
-  }
-  .testimonial .col-3 img {
-    width: 50px;
-    margin-top: 20px;
-    border-radius: 50%;
-  }
-  
-  .testimonial .col-3:hover {
-    transform: translateY(-10px);
-  }
-  
-  .fa.fa-quote-left {
-    font-size: 34px;
-    color: red;
-  }
-  
-  .col-3 p {
-    font-size: 12px;
-    margin: 12px 0;
-    color: #777;
-  }
-  
-  .testimonial .col-3 h3 {
-    font-weight: 600;
-    color: #555;
-    font-size: 16px;
-  }
-
-  /* brands */
-  
+/* brands */
   .brands {
     margin: 100px auto;
   }
@@ -257,7 +197,6 @@
   .col-5 img:hover {
     filter: grayscale(0);
   }
-  
   /* footer */
   .footer {
     background: #000;
@@ -321,13 +260,13 @@
     margin-left: 20px;
     display: none;
   }
-.btn{
+  .btn{
     font-family: 'Shadows Into Light', cursive;
     background-color: red;
-}
-#bnt{
+  }
+  #bnt{
   margin-top: 3px;
-}
+  }
   .bask{
     width: 35px;
     height: 35px;
@@ -371,24 +310,6 @@
     height: 20px;
     width: 20px;
   }
-  #promo{
-    font-size: 100px;
-    font-family: 'Shadows Into Light', cursive;
-  }
-  .nomo{
-    color: red;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 100px;
-  }
-  .popo{
-    font-size: 25px;
-    font-family: 'Satisfy', cursive;
-    color:black;
-  }
-  .foofoo{
-    color: red;
-    font-size: 15px;
-  }
   .easy{
     font-size: 70px;
     letter-spacing: 1.5px;
@@ -401,67 +322,4 @@
     color: red;
     font-family: 'Satisfy', cursive;
     font-size: 60px;
-  }
-  .bouton{
-    display: flex;
-    justify-content: space-around;
-    background-color:transparent;
-    width: 1000px;
-    margin-left: 450px;
-    border-radius: 5px;
-    margin-top: 10px;
-  }
-  .fa-heart{
-    height: 100px;
-    width: 100px;
-  }
-  .product{
-    display: flex;
-  }
-  .baye{
-    display: flex;
-  }
-  .offer-img{
-    margin-top: -100px;
-    margin-left: -250px;
-  }
-  .vp{
-    font-family: 'Satisfy', cursive;
-    color: gray;
-  }
-  .offre-img{
-    height: 500px;
-    width: 900px;
-    margin-top: -60px;
-    margin-left: -200px;
-    border-radius: 30px;
-  }
-  .pika{
-    background-color: red;
-    color: #000;
-    font-size: 20px;
-  }
-  .poromo{
-    font-size: 50px;
-  font-family: 'Shadows Into Light', cursive;
-  }
-  .kaka{
-    height: 200px;
-    width: 70px;
-  }
-  #bala {
-    display: inline-block;
-    background: red;
-    color: #fff;
-    padding: 15px 30px;
-    margin: 30px 0;
-    border-radius: 5px;
-    transition:  0.5s;
-    font-family: 'Shadows Into Light', cursive ;
-  }
-  
-  #bala:hover {
-    transition: 1s;
-    background-color:blue ;
-    color: #fff;
   }
