@@ -322,22 +322,39 @@
     color: red;
     font-family: 'Satisfy', cursive;
     font-size: 60px;
-  }
-  .pom{
-    border: 2px solid red;
-    padding: 200px;
-    width: 700px;
-    margin-top: -55px;
-    margin-left: 30px;
-    align-items: flex-start;
-    background-color: red;
-  }
-  #titi{
-    font-size: 19px;
-    margin-top: -170px;
-    align-items: flex-start;
-  }
-  .nini{
-    margin-bottom: 20px;
-    align-items: flex-start;
-  }
+    }
+    .detail{
+      border: 2px solid black;
+      padding: 200px;
+      width: 700px;
+      margin-top: -55px;
+      margin-left: 30px;
+      background-color: #C40006D3;
+      border-radius: 10px;
+    }
+    #titi{
+      font-size: 19px;
+      margin-top: -170px;;
+      color: white;
+      }
+    .nini{
+      margin-bottom: 20px;
+      color: white;
+    }
+    .man{
+      background-color:#F8CF0088 ;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      font-size: 20px;
+      font-family:'Satisfy', cursive;
+      margin-top: 20px;
+    }
+    .man:hover{
+      background-color: blue;
+      color: white;
+      transition: 1s;
+    }
+    .color{
+      color: white;
+    }
